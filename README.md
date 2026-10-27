@@ -11,10 +11,9 @@ Static site for [banffnightshuttle.com](https://banffnightshuttle.com): private,
 ## Before launch — replace placeholders
 | Placeholder | Where | What |
 |---|---|---|
-| `YOUR_WEB3FORMS_ACCESS_KEY` | all booking pages | New Web3Forms key for the Banff inbox |
 | `AW-XXXXXXXXXX` | all pages `<head>` | Google Ads tag ID |
 | `AW-XXXXXXXXXX/XXXXXXXXXXXX` | `js/main.js` | Ads conversion `send_to` |
 | `G-XXXXXXXXXX` | all pages `<head>` | Google Analytics ID |
 | CSS hero (`css/style.css` `.hero`) | | Swap for a Banff night photo |
 
-Find them all: `grep -rn "XXXXXXXXXX\|YOUR_WEB3FORMS" .`
+Find them all: `grep -rn "XXXXXXXXXX" .`
