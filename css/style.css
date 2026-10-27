@@ -143,9 +143,10 @@ section { padding: 96px 0; }
   align-items: center;
 }
 .nav-logo img {
-  height: 48px;
+  height: 44px;
   width: auto;
   display: block;
+  border-radius: 8px;
 }
 
 .nav-links {
